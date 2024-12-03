@@ -1,8 +1,5 @@
 # Machine-Learning-project-on-Coupon-Recommendation-System-Using-User-Behavior-Data.
 
-# Tools used:
-Python (scikit learn,seaborn,matplotlib,Python)
-
 # Data cleaning and preprocessing 
 This involves preparing raw data for analysis or modeling by improving its quality and structure. First, missing values are addressed by either removing columns/rows with excessive gaps or 
 filling them with statistical measures (mean, median, mode). Duplicates are removed to ensure data uniqueness. Categorical data inconsistencies are resolved by standardizing entries. 
