@@ -18,7 +18,7 @@ missing values, and correlations, providing a deeper understanding of the datase
 Difference test was conducted to make predictions, decisions, or 
 categorizations without being explicitly programmed for every specific task such as:
 
-# train rest split:
+# Train rest split:
 This was done to evaluate machine learning models by dividing the dataset into two parts: the training set (70–80%) and the test set (20–30%).The model learns patterns from the training set and is then evaluated on the test set to check its performance on unseen data.
 
 # Logistic Regression:
