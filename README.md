@@ -1,6 +1,6 @@
 # Machine-Learning-project-on-Coupon-Recommendation-System-Using-User-Behavior-Data.
 
-# Tools used
+# Tools used:
 Python (scikit learn,seaborn,matplotlib,Python)
 
 # Data cleaning and preprocessing 
@@ -24,22 +24,21 @@ missing values, and correlations, providing a deeper understanding of the datase
 # Machine learning Model
 Difference test was conducted to make predictions, decisions, or 
 categorizations without being explicitly programmed for every specific task such as:
+
 # train rest split:
 This was done to evaluate machine learning models by dividing the dataset into two 
 parts: the training set (70–80%) and the test set (20–30%).The model learns patterns from the training 
 set and is then evaluated on the test set to check its performance on unseen data.
-# Logistic Regression: Classifies binary or multi-class data
 
-# Decision tree classifier: Splits data based on conditions to make decisions.
+# Logistic Regression:
+Classifies binary or multi-class data
 
-# Random Forest model: Combines multiple decision trees for improved accuracy.
-Models	            Y	  accuracy	precision	F1-Score	Recall	support
-Logistic Regression	 0	  0.63	      0.61	   0.53	   0.46	   1118
-	                   1		            0.65	   0.70	   0.77	   1419
-Decision tree 	    0	    0.67	      0.62    0.62     0.63	   1118
-	                  1		              0.70	  0.70	   0.70	   1419
-Random Forest       0	    0.73	      0.71	  0.68	   0.65	   1118
-	                  1		              0.74	  0.76	   0.79	   1419
+# Decision tree classifier: 
+Splits data based on conditions to make decisions.
+
+# Random Forest model: 
+Combines multiple decision trees for improved accuracy.
+
 
 
 From the result above,It clearly shows that Random forest model for Y variable 0 and 1 has the superior and best  performance model in comparison with the different models tested. It consistently has the 
