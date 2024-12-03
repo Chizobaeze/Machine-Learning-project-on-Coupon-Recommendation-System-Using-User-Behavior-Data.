@@ -31,15 +31,14 @@ parts: the training set (70–80%) and the test set (20–30%).The model learns 
 set and is then evaluated on the test set to check its performance on unseen data.
 
 # Logistic Regression:
-Classifies binary or multi-class data
+is a statistical model used for binary classification tasks. It estimates the probability that a given input belongs to a specific class by applying the logistic (sigmoid) function to a linear combination of input features. The output is a value between 0 and 1, representing the predicted probability.
 
 # Decision tree classifier: 
-Splits data based on conditions to make decisions.
-
+A Decision Tree Classifier is a machine learning model that splits data into branches based on feature conditions, forming a tree-like structure. At each node, it selects the best feature to split data for maximum information gain. The process continues until reaching leaf nodes, which represent the predicted class labels.
 # Random Forest model: 
-Combines multiple decision trees for improved accuracy.
+A Random Forest model is an ensemble learning technique that builds multiple decision trees during training. Each tree is trained on a random subset of data and features, and their predictions are combined (via majority voting or averaging) for final output. This approach improves accuracy and reduces overfitting compared to single decision trees.
 
-
+<img width="501" alt="results" src="https://github.com/user-attachments/assets/b42a5a60-30ec-41e6-8d62-5c684cdefe07">
 
 From the result above,It clearly shows that Random forest model for Y variable 0 and 1 has the superior and best  performance model in comparison with the different models tested. It consistently has the 
 highest precision, recall, and F1-Score, making it the most reliable and effective choice among 
